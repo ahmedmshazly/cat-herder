@@ -1,4 +1,6 @@
-# Cat Herder
+# 🐈 Cat Herder 🐈 
+
+# 🐱🐱
 
 ## Overview
 Hello ! So, Cat Herder is a C program where we get to play around with UNIX process management, using `fork` and `exec` system calls. What it does is pretty cool—it sets up a bunch of child processes, then connects them in a pipeline, just like you’d string together commands in the shell.
