@@ -3,7 +3,7 @@
 # 🐱🐱
 
 ## Overview
-Hello ! So, Cat Herder is a C program where we get to play around with UNIX process management, using `fork` and `exec` system calls. What it does is pretty cool—it sets up a bunch of child processes, then connects them in a pipeline, just like you’d string together commands in the shell.
+Hello ! So, Cat Herder is a C program where we get to play around with UNIX process management, using `fork` and `exec` system calls. What it does is pretty cool, it sets up a bunch of child processes, then connects them in a pipeline, just like you’d string together commands in the shell.
 
 ## Features
 - Spins up three child processes to form a pipeline: `kitty -2 | kitty -3 | kitty -4`.
@@ -50,7 +50,7 @@ If all goes well, `cat-herder` will churn out an output file as you asked. It wi
 ## Working with kitty and kitty.c
 
 ### Understanding kitty
-`kitty` is a custom executable we use in our pipeline—it's a sort of simulated `cat` command that interacts with the data piped through our process setup. It's quirky because it only works with stdin and stdout, and it's pretty picky about its environment and open file descriptors.
+`kitty` is a custom executable we use in our pipeline, it's a sort of simulated `cat` command that interacts with the data piped through our process setup. It's quirky because it only works with stdin and stdout, and it's pretty picky about its environment and open file descriptors.
 
 ### Getting kitty
 If you don't already have the `kitty` executable, you'll have to ask for it, it is specifically crafted for this project, and is part of university resources that can't be public.
